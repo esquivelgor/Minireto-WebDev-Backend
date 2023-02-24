@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/Videogames.csproj": {}
+  },
+  "projects": {
+    "/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/Videogames.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/Videogames.csproj",
+        "projectName": "Videogames",
+        "projectPath": "/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/Videogames.csproj",
+        "packagesPath": "/home/esquivelg/.nuget/packages/",
+        "outputPath": "/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/esquivelg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

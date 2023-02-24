@@ -1,12 +1,3 @@
-# Design and progress of Project 1
-
-- [ ] Ads (Downright)
-- [ ] Main (Upright)
-- [ ] Project boxes 
-- [ ] Add Gifts
-- [ ] Add rotate buttons
-
-
 # References
 - [Inspiration](https://www.geeksforgeeks.org/)
 - [Inspiration_2](https://web.archive.org/web/20110807095908/http://geeksforgeeks.org/)
