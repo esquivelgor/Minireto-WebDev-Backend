@@ -1,0 +1,15 @@
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/bin/Debug/net7.0/Videogames
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/bin/Debug/net7.0/Videogames.deps.json
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/bin/Debug/net7.0/Videogames.runtimeconfig.json
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/bin/Debug/net7.0/Videogames.dll
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/bin/Debug/net7.0/Videogames.pdb
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.csproj.AssemblyReference.cache
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.GeneratedMSBuildEditorConfig.editorconfig
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.AssemblyInfoInputs.cache
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.AssemblyInfo.cs
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.csproj.CoreCompileInputs.cache
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.dll
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/refint/Videogames.dll
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.pdb
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/Videogames.genruntimeconfig.cache
+/home/esquivelg/Downloads/TecWorks/Tec_4/TC2005B-402-Sem2023/Videogames/obj/Debug/net7.0/ref/Videogames.dll
