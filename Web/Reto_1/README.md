@@ -5,11 +5,11 @@ Project 1 - Submodule "Web development" in the subject "Software construction an
 Versions
 ======
 
-### V1.0.0
+### **V1.0.0**
 The first version it was just the project itself with HTML, CSS and a javascript function
 
-### V1.1.0
+### **V1.1.1**
 
-Implentation of the well-known framework Bootstrap
+Implentation of the well-known framework Bootstrap and an Ajax function.
 
-<img src="capture.gif"  width="60%" height="30%">
+<img src="V111.gif"  width="60%" height="30%" >

@@ -7,3 +7,4 @@
 - [JSExecution](https://stackoverflow.com/questions/2644615/how-do-i-automatically-execute-javascript)
 - [Bootstrap Grid System](https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp)
 - [Bootstrap Navigation Bar](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)
+- [Ajax](https://www.w3schools.com/js/js_ajax_http.asp)
