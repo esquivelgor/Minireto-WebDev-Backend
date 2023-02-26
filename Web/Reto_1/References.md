@@ -5,3 +5,5 @@
 - [TextAnimations](https://alvarotrigo.com/blog/css-text-animations/)
 - [TextAnimations_2](https://www.w3schools.com/howto/howto_js_typewriter.asp)
 - [JSExecution](https://stackoverflow.com/questions/2644615/how-do-i-automatically-execute-javascript)
+- [Bootstrap Grid System](https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp)
+- [Bootstrap Navigation Bar](https://www.w3schools.com/bootstrap/bootstrap_navbar.asp)

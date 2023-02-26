@@ -13,7 +13,7 @@ namespace FirstConsoleApp
         /// <param name="args">command-line </param>
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hello Wosrlsd");
         }
     }
 }
