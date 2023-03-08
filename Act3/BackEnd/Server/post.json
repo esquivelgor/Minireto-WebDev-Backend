@@ -1,0 +1,17 @@
+{
+    "post1" : {
+       "name" : "pythonPost",
+       "type" : "python",
+       "owner" : "esquivel",
+       "color" : "white with black-gray-ish",
+       "id": 1
+    },
+     "pet2" : {
+        "name" : "nezuko",
+        "type" : "cat",
+        "owner" : "eldelcesar",
+        "color" : "black and white",
+        "id": 2
+    }
+}
+   
