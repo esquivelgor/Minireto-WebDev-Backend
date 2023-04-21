@@ -1,14 +1,36 @@
-function HomePage() {
-    var i = 0;
-    var txt = 'A computer science portal for geeks';
-    var speed = 155;
+import { useState, useRef, useEffect } from 'react';
 
-    function typeWriter() {
-        if (i < txt.length) {
-            document.getElementById("description").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-        }
+function HomePage() {
+
+    function TypeWriter() {
+
+        const [placeholder, setplaceholder] = useState('');
+
+        const string = '  A computer science portal for geeks', index = useRef(0);
+        useEffect(() => {
+            function tick() {
+                setplaceholder(prev => prev + string[index.current]);
+                index.current++;
+            }
+            function clear() {
+                setplaceholder(prev => '');
+                index.current = 0;
+            }
+
+            if (index.current < (string.length) - 1) {
+                let addChar = setInterval(tick, 150);
+                return () => clearInterval(addChar);
+            } else {
+                let addChar = setInterval(clear, 150);
+                return () => clearInterval(addChar);
+            }
+        }, [placeholder]);
+
+        return (
+            <div>
+                {placeholder}
+            </div>
+        )
     };
 
     function loadInfo() {
@@ -41,7 +63,9 @@ function HomePage() {
                                 GeeksforGeeks
                             </a>
                         </h1>
-                        <div className="blog-description" id="description"></div>
+                        <div className="blog-description" id="description">
+                            <TypeWriter />
+                        </div>
                     </div>
                 </div>
                 <nav>
