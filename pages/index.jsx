@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
 
-function HomePage() {
+export default function HomePage() {
 
     function TypeWriter() {
 
@@ -315,4 +315,3 @@ function HomePage() {
     )
 }
 
-export default HomePage
