@@ -1,13 +1,29 @@
 {
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "next": "^13.3.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0"
-    }
+  "name": "tc2005b-sem2023",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esquivelgor/TC2005B-Sem2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/esquivelgor/TC2005B-Sem2023/issues"
+  },
+  "homepage": "https://github.com/esquivelgor/TC2005B-Sem2023#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
