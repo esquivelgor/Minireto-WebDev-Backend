@@ -13,7 +13,7 @@ export const getComments = async (req, res) => {
 
 export const getComment = async (req, res) => {
     try {
-        const [rows] = await pool.query('SELECT * FROM comments WHERE id = ?;', [req.params.id])
+        const [rows] = await pool.query('SELECT * FROM comments WHERE id = ?;', [req.params.id])  
         if (rows.length <= 0) return res.status(404).json({ message: "Comment not found" })
         res.json(rows[0])
     } catch (error) {
