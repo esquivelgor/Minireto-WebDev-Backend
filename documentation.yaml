@@ -1,0 +1,156 @@
+openapi: 3.0.0
+info:
+  title: Geeks4Geeks API
+  description: El lugar en donde las ideas de los desarrolladores se unen.
+  version: 0.1.9
+servers:
+  - url: https://tc2005b-sem2023-production.up.railway.app/api/employees
+    description: Geeks4Geeks hosteado en Railway
+tags:
+  - name: comments
+    description: Blog para la colaboracion en base a comentarios
+paths:
+  /comments:
+    get:
+      tags:
+        - comments
+      summary: Nos regresa una lista de todos los comentarios
+      description: Lista de todos los comentarios en el blog, esta estara desplegando el username, la descripcion del comentario asi como su ultima fecha de edicion.
+      responses:
+        "200":
+          description: Un archivo JSON con la lista de los comentarios
+          content:
+            application/json:
+              schema:
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 4
+                  user:
+                    type: string
+                    example: Velgor
+                  description:
+                    type: string
+                    example: ChatGPT is gonna take our jobs...
+                  date:
+                    type: string
+                    example: 2011-12-04
+        "404":
+          description: No fue encontrado el comentario.
+        default:
+          description: Error indefinido\
+    post:
+      tags:
+        - comments
+      summary: Añade otro comentarios al blog
+      requestBody:
+        description: Crea un nuevo comentario en el blog
+        content:
+          application/json:
+            schema:
+              properties:
+                id:
+                  type: integer
+                  format: int64
+                  example: 4
+                user:
+                  type: string
+                  example: Velgor
+                description:
+                  type: string
+                  example: ChatGPT is gonna take our jobs...
+                date:
+                  type: string
+                  example: 2011-12-04
+        required: true
+      responses:
+        "200":
+          description: Se creo correctamente
+        "404":
+          description: No se pudo crear el comentario
+        default:
+          description: Error indefinido
+    delete:
+      tags:
+        - comments
+      summary: Elimina un comentario determinado
+      description: Elimina un comentario
+      parameters:
+        - name: id
+          in: path
+          description: Comentario a eliminar
+          required: true
+          schema:
+            type: integer
+            format: int64
+      responses:
+        "400":
+          description: No se encuentra el id
+    patch:
+      tags:
+        - comments
+      summary: Edita alguno de los comentarios
+      parameters:
+        - name: username
+          in: path
+          description: id del comentario a cambiar
+          required: true
+          schema:
+            type: string
+      requestBody:
+        description: Update an existent user in the store
+        content:
+          application/json:
+            schema:
+              properties:
+                id:
+                  type: integer
+                  format: int64
+                  example: 4
+                user:
+                  type: string
+                  example: Velgor
+                description:
+                  type: string
+                  example: ChatGPT is gonna take our jobs...
+                date:
+                  type: string
+                  example: 2011-12-04
+      responses:
+        "200":
+          description: Se creo el usuario
+        "404":
+          description: No fue encontrado el comentario.
+        default:
+          description: Error desconocido
+  /comments/{:id}:
+    get:
+      tags:
+        - comments
+      summary: Nos regresa un comentario en especifico en un modal
+      description: Informacion de uno de los comentarios en el blog, esta estara desplegando el username, la descripcion del comentario asi como su ultima fecha de edicion.
+      responses:
+        "200":
+          description: Un archivo JSON con la lista de uno de los comentarios
+          content:
+            application/json:
+              schema:
+                properties:
+                  id:
+                    type: integer
+                    format: int64
+                    example: 4
+                  user:
+                    type: string
+                    example: Velgor
+                  description:
+                    type: string
+                    example: ChatGPT is gonna take our jobs...
+                  date:
+                    type: string
+                    example: 2011-12-04
+        "404":
+          description: No fue encontrado el comentario.
+        default:
+          description: Error indefinido
