@@ -26,15 +26,15 @@ export const getComment = async (req, res) => {
 export const createComment = async (req, res) => {
     try {
         const { user, description } = req.body
-        const [rows] = await pool.query('INSERT INTO comments (user, description, currentDate) VALUES (?,?, currentDate());', [user, description])
+        const [rows] = await pool.query('INSERT INTO comments (user, description, currentDate) VALUES (?,?, CURDATE());', [user, description])
         if (rows.length <= 0) return res.status(404).json({ message: "Comments not found" })
         res.send({
             id: rows.insertId,
-            name,
-            salary
+            user,
+            description
         })
     } catch (error) {
-        return res.status(500).json({ message: "Something went wrong" })
+        return res.status(500).json({ message: "Something went wrong", error })
     }
 }
 
