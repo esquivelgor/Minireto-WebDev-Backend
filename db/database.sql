@@ -1,7 +1,7 @@
-CREATE DATABASE IF NOT EXISTS companydb;
+CREATE DATABASE IF NOT EXISTS comments;
 
 
-USE companydb;
+USE comments;
 
 CREATE TABLE comments (
     id INT(11) NOT NULL AUTO_INCREMENT,
@@ -13,8 +13,9 @@ CREATE TABLE comments (
 
 DESCRIBE comments;
 
-INSERT INTO comments VALUES
-    (5, "Velgor", "ChatGPT is gonna take our jobs...", "2011-12-03"),
-    (6, "Juan",  "I don't like web programming 'cause...", "2011-12-03"), 
-    (7, "Juan",  "I've been awake since 5am without solve this...", "2011-12-03"),
-    (8, "Juan",  "Idk what to write or...", "2011-12-03");
+INSERT INTO messages VALUES
+    (1, "Velgor", "ChatGPT is gonna take our jobs...", "2001-09-23"),
+    (2, "User494943", "I don't like web programming 'cause...", "2001-09-23"), 
+    (3, "superhero3942", "I've been awake since 5am without solve this...", "2001-09-23"),
+    (4, "yourbro32", "Idk what to write or...", "2001-09-23"),
+    (5, "internetexplorer01", "I'll be the best browser...", "2001-09-23");
