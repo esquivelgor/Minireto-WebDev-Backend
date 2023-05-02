@@ -14,11 +14,11 @@ router.post('/comments', createComment)
 
 
 // ------------ patch endpoings ------------
-router.patch('/comments/:id', patchComment)
+router.patch('/comments', patchComment)
 
 
 // ------------ Delete endpoings ------------
-router.delete('/comments/:id', deleteComment)
+router.delete('/comments', deleteComment)
 
 
 export default router 

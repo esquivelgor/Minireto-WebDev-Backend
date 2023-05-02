@@ -53,8 +53,7 @@ export const deleteComment = async (req, res) => {
 // --------------------------- patch endpoints ---------------------------
 
 export const patchComment = async (req, res) => {
-    const { id } = req.params
-    const { user, description } = req.body
+    const { user, description, id } = req.body
     try {
         const [result] = await pool.query('UPDATE comments SET user = IFNULL(?, user), description = IFNULL(?, description) WHERE id = ?;', [user, description, id])
         if (result.affectedRows <= 0) return res.status(404).json({ message: "Comment not found" })
